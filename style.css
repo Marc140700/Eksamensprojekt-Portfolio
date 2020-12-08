@@ -1,5 +1,87 @@
-@media only screen and (max-width: 600 px) {
-    body {
-        background-color: #111E39;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: SegoeB;
+    src: url(Fonts/segoeuib.ttf);  
+}
+
+@font-face {
+    font-family: SegoeBI;
+    src: url(Fonts/seguisbi.ttf);  
+}
+
+@font-face {
+    font-family: SegoeL;
+    src: url(Fonts/segoeuil.ttf);  
+}
+
+body {
+    background-color: #111E39;
+}
+/**/
+
+/*Tekst*/
+h1 {
+    color: #F1F1F1;
+    text-align: center;
+    font-family: SegoeB;
+}
+
+h2 {
+    color: #28A2CB;
+    font-size: 18px;
+    text-align: center;
+    font-family: SegoeBI;
+}
+
+p {
+    color: #F1F1F1;
+    font-size: 16px;
+    font-family: SegoeL;
+    margin: 15px;
+}
+
+li {
+    color: #F1F1F1;
+    text-align: center;
+    font-size: 16px;
+    font-family: SegoeB
+}
+/**/
+
+/*Menu*/
+.Menu {
+    background-color: #101010;
+    Height: 45px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.Menu li {
+    display: inline-block;
+    padding: 8px 20px;
+    color: #F1F1F1;
+}
+
+.Menu li a {
+    transition: all 0.3s ease 0s;
+    color: #F1F1F1;
+    vertical-align: middle;
+}
+
+.Menu li a:hover {
+    color: #28A2CB;
+}
+/**/
+
+@media only screen and (max-width: 1000px) {
 }
