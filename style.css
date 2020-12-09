@@ -5,6 +5,34 @@
     text-decoration: none;
 }
 
+/*Menu*/
+.Menu {
+    background-color: #101010;
+    Height: 45px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.Menu li {
+    display: inline-block;
+    padding: 8px 20px;
+    color: #F1F1F1;
+}
+
+.Menu li a {
+    transition: all 0.3s ease 0s;
+    color: #F1F1F1;
+    vertical-align: middle;
+}
+
+.Menu li a:hover {
+    color: #28A2CB;
+}
+/**/
+
 /*Fonts*/
 @font-face {
     font-family: SegoeB;
@@ -55,33 +83,19 @@ li {
 }
 /**/
 
-/*Menu*/
-.Menu {
-    background-color: #101010;
-    Height: 45px;
-    margin: 0;
-    margin-bottom: 20px;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-
-.Menu li {
+/*Knapper*/
+.Portfolio-knap {
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: #28A2CB;
+    color: #F1F1F1;
+    font-family: SegoeB;
+    padding: 14 px 28px;
+    font-size: 16px;
+    cursor: pointer;
     display: inline-block;
-    padding: 8px 20px;
-    color: #F1F1F1;
 }
-
-.Menu li a {
-    transition: all 0.3s ease 0s;
-    color: #F1F1F1;
-    vertical-align: middle;
-}
-
-.Menu li a:hover {
-    color: #28A2CB;
-}
-/**/
 
 @media only screen and (max-width: 1000px) {
 }
