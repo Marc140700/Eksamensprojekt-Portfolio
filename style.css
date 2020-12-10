@@ -233,5 +233,18 @@ li {
 }
 /**/
 
+/*Footer*/
+.footer {
+    background: #101010;
+    height: 100px;
+    color: #F1F1F1;
+    font-size: 12px;
+    font-family: SegoeB;
+    position: relative;
+    text-align: center;
+}
+
+/**/
+
 @media only screen and (max-width: 1000px) {
 }
