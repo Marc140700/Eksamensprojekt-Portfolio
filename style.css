@@ -18,7 +18,7 @@
 
 .Menu li {
     display: inline-block;
-    padding: 8px 20px;
+    padding: 10px 20px;
     color: #F1F1F1;
 }
 
@@ -54,6 +54,12 @@ body {
 }
 /**/
 
+.Præsentationsbillede {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
 /*Tekst*/
 h1 {
     color: #F1F1F1;
@@ -68,9 +74,18 @@ h2 {
     font-family: SegoeBI;
 }
 
+h3 {
+    color: #F1F1F1;
+    font-size: 15px;
+    text-align: center;
+    font-family: SegoeBI;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
 p {
     color: #F1F1F1;
-    font-size: 16px;
+    font-size: 15px;
     font-family: SegoeL;
     margin: 15px;
 }
@@ -78,23 +93,36 @@ p {
 li {
     color: #F1F1F1;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     font-family: SegoeB
 }
 /**/
 
 /*Knapper*/
 .Portfolio-knap {
-    width: 120px;
-    height: 30px;
+    width: 140px;
+    height: 40px;
     border: none;
     background-color: #28A2CB;
     color: #F1F1F1;
+    text-align: center;
     font-family: SegoeB;
-    padding: 14 px 28px;
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
+}
+
+.Portfolio-knap {border-radius: 20px;}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/*Portfolio-styling*/
+.Youtube-banners {
+    margin: 0;
+    padding: 0;
 }
 
 @media only screen and (max-width: 1000px) {
