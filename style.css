@@ -77,6 +77,14 @@ h3 {
     margin-bottom: 10px;
 }
 
+.p1 {
+    color: #F1F1F1;
+    font-size: 15px;
+    font-family: SegoeL;
+    margin: 15px;
+    line-height: 160%;
+}
+
 p {
     color: #F1F1F1;
     font-size: 15px;
