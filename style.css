@@ -10,22 +10,22 @@
     background-color: #101010;
     Height: 45px;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 0;
     list-style: none;
     text-align: center;
 }
 
 .Menu li {
-    display: inline-block;
     padding: 10px 20px;
     color: #F1F1F1;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .Menu li a {
     transition: all 0.3s ease 0s;
     color: #F1F1F1;
-    vertical-align: middle;
 }
 
 .Menu li a:hover {
@@ -54,12 +54,6 @@ body {
 }
 /**/
 
-.Præsentationsbillede {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
 /*Tekst*/
 h1 {
     color: #F1F1F1;
@@ -69,13 +63,13 @@ h1 {
 
 h2 {
     color: #28A2CB;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     font-family: SegoeBI;
 }
 
 h3 {
-    color: #F1F1F1;
+    color: #28A2CB;
     font-size: 15px;
     text-align: center;
     font-family: SegoeBI;
@@ -87,7 +81,8 @@ p {
     color: #F1F1F1;
     font-size: 15px;
     font-family: SegoeL;
-    margin: 15px;
+    margin: 30px;
+    line-height: 160%;
 }
 
 li {
@@ -97,6 +92,12 @@ li {
     font-family: SegoeB
 }
 /**/
+
+.Præsentationsbillede {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
 
 /*Knapper*/
 .Portfolio-knap {
@@ -110,6 +111,12 @@ li {
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.Portfolio-knap:hover {
+    background-color: #70bfda;
 }
 
 .Portfolio-knap {border-radius: 20px;}
@@ -121,9 +128,102 @@ li {
 
 /*Portfolio-styling*/
 .Youtube-banners {
-    margin: 0;
-    padding: 0;
+    justify-content: center;
 }
+
+.Reklamebillede {
+    display: flex;
+    justify-content: center;
+}
+
+.Posters {
+    display: flex;
+    justify-content: center;
+}
+
+.Tøj-design {
+    display: flex;
+    justify-content: center;
+}
+
+.Logo-designs-almindelige {
+    display: flex;
+    justify-content: center;
+}
+
+.Logo-designs-illustreret {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.Rumrejsen-startbillede {
+    display: flex;
+    justify-content: center;
+}
+
+.Rumrejsen-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.Dans-dans-dans-startbillede {
+    display: flex;
+    justify-content: center;
+}
+
+.Dans-dans-dans-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.Hold-og-priser {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Samlet-moodboard {
+    display: flex;
+    justify-content: center;
+}
+
+.Video-startbillede {
+    display: flex;
+    justify-content: center;
+}
+
+.Victor {
+    display: flex;
+    justify-content: center;
+}
+
+.Premiere-pro {
+    display: flex;
+    justify-content: center;
+}
+
+.Bag-rattet-startbillede {
+    display: flex;
+    justify-content: center;
+}
+
+.Bag-rattet-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.Posts {
+    display: flex;
+    justify-content: center;
+}
+
+.Om-os {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+/**/
 
 @media only screen and (max-width: 1000px) {
 }
