@@ -129,9 +129,68 @@ li {
 
 .Portfolio-knap {border-radius: 20px;}
 
+.Send-knap {
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #2C3B5A;
+    color: #F1F1F1;
+    text-align: center;
+    font-family: SegoeB;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.Send-knap:hover {
+    background-color: #5d76a8;
+}
+
+.Send-knap {border-radius: 20px;}
+
 .wrapper {
     display: flex;
     justify-content: center;
+}
+/**/
+
+/*Kontaktformular*/
+.kontaktformular {
+    width: 85%;
+    max-width: 600px;
+    background: #2C3B5A;
+    padding: 10px 10px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.kontaktformular {border-radius: 20px;}
+
+.Navn {
+    margin: 4px 0px;
+    padding: 6px 25px;
+}
+
+.Efternavn {
+    margin: 4px 0px;
+    padding: 6px 25px;
+}
+
+.E-mail {
+    margin: 4px 0px;
+    padding: 6px 25px;
+}
+
+.Besked {
+    margin: 4px 0px;
+    padding: 6px 25px;
+}
+
+.kontakformular input,.kontaktformular textarea {
+    width: 100%;
+    height: 100px;
 }
 
 /*Portfolio-styling*/
