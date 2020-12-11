@@ -79,7 +79,7 @@ h3 {
 
 .p1 {
     color: #F1F1F1;
-    font-size: 15px;
+    font-size: 13px;
     font-family: SegoeL;
     margin: 13px;
     line-height: 160%;
@@ -192,103 +192,162 @@ li {
     width: 100%;
     height: 100px;
 }
+/**/
 
 /*Portfolio-styling*/
 .Youtube-banners {
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Reklamebillede {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Posters {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Tøj-design {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Logo-designs-almindelige {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Logo-designs-illustreret {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Rumrejsen-startbillede {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Rumrejsen-logo {
     display: flex;
     justify-content: center;
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: 550px;
 }
 
 .Dans-dans-dans-startbillede {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Dans-dans-dans-logo {
     display: flex;
     justify-content: center;
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: 550px;
 }
 
 .Hold-og-priser {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Samlet-moodboard {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Video-startbillede {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Victor {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Premiere-pro {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Bag-rattet-startbillede {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Bag-rattet-logo {
     display: flex;
     justify-content: center;
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: 550px;
 }
 
 .Posts {
     display: flex;
     justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
 }
 
 .Om-os {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: 450px;
+    margin-bottom: 200px;
 }
 /**/
 
@@ -311,8 +370,212 @@ li {
     display: flex;
     justify-content: center;
 }
-
 /**/
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 1920px) {
+body {
+    background-color: #111E39;
+}
+
+/*Menu*/
+.Menu {
+    background-color: #101010;
+    Height: 60px;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.Menu li {
+    padding: 18px 20px;
+    color: #F1F1F1;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.Menu li a {
+    transition: all 0.3s ease 0s;
+    color: #F1F1F1;
+}
+
+.Menu li a:hover {
+    color: #28A2CB;
+}
+/**/
+
+/*Tekst*/
+h1 {
+    color: #F1F1F1;
+    text-align: center;
+    font-family: SegoeB;
+    margin-top: 20px;
+    font-size: 70px;
+}
+
+h2 {
+    color: #28A2CB;
+    font-size: 40px;
+    text-align: center;
+    font-family: SegoeBI;
+}
+
+h3 {
+    color: #28A2CB;
+    font-size: 25px;
+    text-align: center;
+    font-family: SegoeBI;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.p1 {
+    color: #F1F1F1;
+    font-size: 25px;
+    font-family: SegoeL;
+    margin: 13px;
+    line-height: 160%;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+p {
+    color: #F1F1F1;
+    font-size: 25px;
+    font-family: SegoeL;
+    margin: 30px;
+    line-height: 160%;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+li {
+    color: #F1F1F1;
+    text-align: center;
+    font-size: 25px;
+    font-family: SegoeB
+}
+/**/
+
+.Præsentationsbillede {
+    margin: 20px;
+    max-width: 30%;
+    max-height: 30%;
+    align-items: right;
+    margin-left: 670px;
+    position: relative;
+}
+
+/*Knapper*/
+.Portfolio-knap {
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: #28A2CB;
+    color: #F1F1F1;
+    text-align: center;
+    font-family: SegoeB;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.Portfolio-knap:hover {
+    background-color: #70bfda;
+}
+
+.Portfolio-knap {border-radius: 40px;}
+
+.Send-knap {
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: #2C3B5A;
+    color: #F1F1F1;
+    text-align: center;
+    font-family: SegoeB;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.Send-knap:hover {
+    background-color: #5d76a8;
+}
+
+.Send-knap {border-radius: 40px;}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+/**/
+
+/*Kontaktformular*/
+.kontaktformular {
+    width: 100%;
+    max-width: 800px;
+    background: #2C3B5A;
+    padding: 10px 10px;
+    text-align: left;
+    margin-left: 550px;
+}
+
+.kontaktformular {border-radius: 20px;}
+
+.Navn {
+    margin: 4px 0px;
+    padding: 6px 25px;
+}
+
+.Efternavn {
+    margin: 4px 0px;
+    padding: 6px 25px;
+}
+
+.E-mail {
+    margin: 4px 0px;
+    padding: 6px 25px;
+}
+
+.Besked {
+    margin: 4px 0px;
+    padding: 6px 25px;
+}
+
+.kontakformular input,.kontaktformular textarea {
+    width: 100%;
+    height: 100px;
+}
+/**/
+
+/*Footer*/
+.footer {
+    background: #101010;
+    height: 100%;
+    position: relative;
+}
+
+.p-footer {
+    color: #F1F1F1;
+    font-size: 11px;
+    font-family: SegoeB;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.sociale-medier {
+    display: flex;
+    justify-content: center;
+    max-width: 20%;
+    max-height: 2   0%;
+    margin-left: 762px;
+}
+/**/
 }
